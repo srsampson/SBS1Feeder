@@ -9,4 +9,4 @@ This used the Java USB Driver from the Sourceforge project: https://sourceforge.
 
 Uploaded for historical reference.
 
-The program was designed to connect to the SBS-1, drink in the data, unscramble it, and then feed it to a Multicast port in the AVR format. Since the SBS-1 did the ICAO parity check in firmware, the parity is put back, so the AVR decoders can do it again manually. The AVR format was useful as it had data delimiters, and could be easily parsed.
+The program was designed to connect to the SBS-1, drink in the data, unscramble it, and then feed it to a Multicast port in an ASCII format. Since the SBS-1 did the ICAO parity check in firmware, the parity is put back, so the decoders can do it again manually. The ASCII format was useful as it had data delimiters, and could be easily parsed.
